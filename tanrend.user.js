@@ -15,7 +15,7 @@
   'use strict'
 
   const tanrend = () => {
-    console.log('tanrend detected')
+    // console.log('tanrend detected')
 
     const fixSemesterSelector = () => {
       const getFelev = (today) => {
@@ -102,7 +102,7 @@
   }
 
   const neptun = () => {
-    console.log('neptun detected')
+    // console.log('neptun detected')
 
     const addTanrendLinks = () => {
       const codeColumnHead = document.getElementById('head_Code')
@@ -136,7 +136,7 @@
       if (criteria()) {
         action()
       } else if (retryCount > 0) {
-        console.log('retrying...')
+        // console.log('retrying...')
         setTimeout(
           () => waitForCriteria(criteria, action, timeout, retryCount - 1),
           timeout
