@@ -6,8 +6,8 @@
 // @author       Isti115
 // @match        http://to.ttk.elte.hu/uj-tanrend*
 // @match        https://to.ttk.elte.hu/uj-tanrend*
-// @match        http://hallgato.neptun.elte.hu*
-// @match        https://hallgato.neptun.elte.hu*
+// @match        http://hallgato.neptun.elte.hu/*
+// @match        https://hallgato.neptun.elte.hu/*
 // @grant        none
 // ==/UserScript==
 
